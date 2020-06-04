@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import Parent from "./Parent";
+import Brother from "./Brother";
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         >
           Learn React
         </a>
+        <Parent />
+        <Brother />
       </header>
     </div>
   );
